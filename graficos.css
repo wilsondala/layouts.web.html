@@ -38,3 +38,36 @@ div {
     height: 300px;
     width: 300px;
 }
+
+/*filtro*/
+#grafico-01 {
+    filter: drop-shadow(8px 8px 10px #333);
+}
+    
+.filtro {
+    filter: grayscale(100%); /*escla cinza*/
+    filter: blur(5px); /*diminuição de luz*/
+    filter: brightness(50%); /*brilho (100% = a normal)*/
+    filter: invert(100%); /*inversão de cores*/
+    filter: opacity(50%);
+    filter: saturate(105%) sepia(100%); /*combina filtros separados ṕor espaço*/
+}
+
+.filtro:hover {
+    filter: grayscale(0%);
+    
+}
+ 
+.filtro {
+    filter: grayscale(100%); /*escla cinza*/
+    filter: blur(5px); /*diminuição de luz*/
+    filter: brightness(50%); /*brilho (100% = a normal)*/
+    filter: invert(100%); /*inversão de cores*/
+    filter: opacity(50%);
+    filter: saturate(105%) sepia(100%); /*combina filtros separados ṕor espaço*/
+}
+
+.filtro:hover {
+    filter: grayscale(0%);
+    
+}
