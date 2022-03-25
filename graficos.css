@@ -71,3 +71,11 @@ div {
     filter: grayscale(0%);
     
 }
+.coluna {
+    display: block;
+    width: 33.3%;
+    float: left;
+    padding: 5px;
+    background: #eee;
+    border: 1px solid #333;
+}
