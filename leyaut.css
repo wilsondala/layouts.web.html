@@ -7,6 +7,11 @@
   padding: 0;
   font-size: 62.5%;  /*equivalente a 10px*/
   }
+  img {
+    max-width: 100%;
+    height: auto;
+
+  }
 
 body {
   background-color: white;
@@ -69,7 +74,7 @@ header {
   color: white;
 }
 nav {
-  background-color: tomato;
+ /* background-color: tomato;*/
   float: left;            /*muda a regra de quebra de linha*/
   width: 30%;
   padding:20px
@@ -79,7 +84,7 @@ nav ul {
   padding: 0;
 }
 article {
-  background-color: yellow;
+  /*background-color: yellow;*/
   float: left;
   padding: 20px;
   width: 70%;
@@ -106,8 +111,17 @@ footer {
 
 } 
 .coluna {
-  display: inline;
-  
+  display: block;
+  width: 50%;
+  float: left;
+  padding: 5px;
+  /**background: #eee;
+  border: 1px solid #333;**/
+}
+
+.coluna-3 {
+  columns: 100px 3;
+  width: 100%;
 }
 
 

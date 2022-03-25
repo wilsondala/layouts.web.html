@@ -42,6 +42,9 @@ div {
 /*filtro*/
 #grafico-01 {
     filter: drop-shadow(8px 8px 10px #333);
+    max-width: 100%;
+    height: auto;
+
 }
     
 .filtro {
@@ -70,12 +73,4 @@ div {
 .filtro:hover {
     filter: grayscale(0%);
     
-}
-.coluna {
-    display: block;
-    width: 33.3%;
-    float: left;
-    padding: 5px;
-    background: #eee;
-    border: 1px solid #333;
 }
