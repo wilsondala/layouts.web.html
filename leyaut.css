@@ -62,14 +62,15 @@ input {
 }
 
 header {
-  background-color: rgb(37, 34, 34);
+  background-color: #333;
   padding: 30px;
-  text-align: center;
+  text-align: left;
   font-size: 35px;
   color: white;
 }
 nav {
-  float: left;
+  background-color: tomato;
+  float: left;            /*muda a regra de quebra de linha*/
   width: 30%;
   padding:20px
 }
@@ -78,6 +79,7 @@ nav ul {
   padding: 0;
 }
 article {
+  background-color: yellow;
   float: left;
   padding: 20px;
   width: 70%;
@@ -89,10 +91,10 @@ section::after {
 }
 
 footer {
-  background-color: blueviolet;
+  background-color: white;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 
@@ -103,6 +105,14 @@ footer {
   }
 
 } 
+.coluna {
+  display: block;
+  width: 33,3%;
+  float: left;
+  padding: 5px;
+  background: #eee;
+  border: 1px solid #333;
+}
 
 
 
