@@ -120,8 +120,11 @@ footer {
 }
 
 .coluna-3 {
-  columns: 100px 3;
-  width: 100%;
+  columns: 100px 2;
+  width: 50%;
+}
+iframe {
+  width: 50%;
 }
 
 
