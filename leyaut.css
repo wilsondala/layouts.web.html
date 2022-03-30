@@ -102,14 +102,6 @@ footer {
   color: black;
 }
 
-
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-
-} 
 .coluna {
   display: block;
   width: 50%;
@@ -123,17 +115,61 @@ footer {
   columns: 100px 2;
   width: 50%;
 }
+
+.coluna-100w {
+  width: 100%;
+}
 iframe {
-  width: 50%;
+  width: 100%;
+}
+
+/*codigo para deixar com cor quando atingir o limit maximo do WIDTH*/
+@media (min-width: 769px) {
+
+  body {
+    background-color: teal;
+    color: #fff;
+  }
+/*muda cor para as tegs a baixo em geral*/
+  p, h3, li, a {
+    color: whitesmoke;
+
+  }
+
+}
+
+
+/*largura resposiva para tablet*/
+@media (max-width: 768px) {
+  nav {
+    width: 30vw;
+  }
+
+  article {
+    width: 70vw;
+  }
+
+  .coluna {
+    width: 50vw;
+    min-width: unset;
+  }
 }
 
 
 
-/*
-  body {
-    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif; 
-  } 
- tipo de letra*/
+/*MOBILE FIRST responsivo para Smartphone*/
+@media (max-width: 425px){
+
+  nav,
+  article,
+  .coluna {
+    width: 100%;
+    min-width: 326px;
+  }
+}
+
+ 
+ /*tipo de letra*/
   
    /*Tipo de cor do corpo da nossa homepage*/
  
